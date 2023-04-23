@@ -1,9 +1,32 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    font-size: 18px;
-    
-    
-      }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 18px;
+  }
+
+
+#results {
+  display: center;
+  justify-content: center;
+  background-color: white;
+  height: 46.5vh;  
+}
+
+#resultsa {
+  text-align: center;
+}
+
+.background-image {
+  background-image: url("https://pics.filmaffinity.com/digimon_adventure-763330122-large.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
